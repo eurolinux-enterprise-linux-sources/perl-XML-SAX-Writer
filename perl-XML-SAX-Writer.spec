@@ -1,6 +1,6 @@
 Name:           perl-XML-SAX-Writer
 Version:        0.53
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        SAX2 Writer
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.53-4
+- Mass rebuild 2013-12-27
+
 * Tue Feb  5 2013 Paul Howarth <paul@city-fan.org> - 0.53-3
 - Always use included Module::Install to avoid circular build deps (#906007)
 
